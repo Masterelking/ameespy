@@ -1,0 +1,183 @@
+/* custom.css */
+
+/* Couleurs personnalisées */
+body {
+    background-color: #cfc6e7; 
+}
+
+.navbar {
+    background-color: #6d0409; 
+}
+
+.navbar .nav-link {
+    color: #530ed3; 
+}
+
+.navbar .nav-link:hover {
+    color: #160202; /* Couleur des liens de navigation au survol */
+}
+
+.btn-primary {
+    background-color: #3498db; 
+    border-color: #01060a;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9; 
+    border-color: #000508;
+}
+
+.text-primary {
+    color: #3498db !important; 
+}
+
+.bg-primary {
+    background-color: #280d8a !important; 
+}
+
+
+
+/* Couleurs de fond personnalisées pour les sections */
+#banniere {
+    background-color:rgba(245, 245, 220, 0.2); 
+}
+
+A-propos {
+    background-color: #9fd2f3;
+}
+Adhesion {
+    background-color: #e2a6a6;; 
+}
+
+Evenements {
+    background-color: #9fd2f3; 
+}
+
+Ressources {
+    background-color: #9fd2f3; 
+}
+
+Forum {
+    background-color: #9fd2f3; 
+}
+
+#Contact {
+    background-color: #9fd2f3; 
+}
+
+#footer {
+    background-color: #9fd2f3; 
+}
+
+
+/* custom.css */
+
+.banniere {
+    background-image: url('c:/Users/allaba/OneDrive/Images/couverture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:red;
+    padding: 20px;
+    text-align: center; 
+    border-radius: 10px;
+    height:800px;
+    width:100%;
+    background-attachment:fixed;
+    background-position:center;
+    filter: brightness(90%); 
+    position:relative;
+    
+
+  
+
+}
+
+@media(max-width: 768px) {
+    .banniere {
+      background-attachment: scroll;
+    }
+}
+
+.banniere h1 {
+    font-size: 2em; /* Large text */
+    margin-bottom: 30px; /* No space under the text */
+    font-weight:bold;
+}
+.banniere h2 {
+    font-size: 4em; 
+    margin-bottom: 30px;
+    font-weight:bold;
+}
+
+.banniere p {
+    font-size: 1.5em; 
+    position: center;
+    margin-top: 200px;
+    color: blue;
+    font-weight: bold;
+}
+.banniere a {
+    color: white; /* Blue link color */
+    bottom: 0;
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/*@keyframes slideIn {
+    from{transform:translateX(-100%); }
+    to {transform: translateX(0);}
+  }*/
+  
+  .slide-in {
+    animation: slideIn 1s ease-out;
+  }
+
+
+  .calendar .event {
+    background-color: #f9c74f;
+    color: #333;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .countdown {
+    font-size: 20px;
+    color: #ff6347;
+  }
+  .comments {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .comment {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
+
+
+
+
+  .d-inline-block {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+
+.img-fluide{
+border-radius: 100px;
+width: 100px;
+height:auto;
+display: block;
+}
+ 
+/* Animation pour le titre */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animated-title {
+    animation: fadeIn 2s ease-in-out;
+}
