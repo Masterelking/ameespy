@@ -1,0 +1,288 @@
+/*style de la bare de navigation*/
+/*bar de navigation*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #310cb6;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.baniere {
+    background-color: #f8f9fa; /* Light grey background */ 
+    background-image: url('c:/Users/allaba/OneDrive/Images/photo de groupe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333; /* Dark text color */
+    padding: 20px; /* Space inside the section */
+    text-align: center; /* Center align text */
+    border-radius: 10px; /* Rounded corners */
+    height:800px;
+    width:100%;
+}
+
+.baniere h2 {
+    font-size: 2em; /* Size of the h2 text */
+    margin-bottom: 10px; /* Space below the h2 element */
+    color: #007bff; /* Blue color for the h2 text */
+}
+
+.baniere h1 {
+    font-size: 3em; /* Size of the h1 text */
+    margin-bottom: 20px; /* Space below the h1 element */
+    color: #343a40; /* Dark grey color for the h1 text */
+}
+
+.baniere p {
+    font-size: 1.2em; /* Size of the paragraph text */
+    margin-bottom: 30px; /* Space below the paragraph */
+    color: #6c757d; /* Medium grey color for the paragraph text */
+}
+
+.baniere .btn {
+    font-size: 1em; /* Size of the button text */
+    padding: 10px 20px; /* Space inside the button */
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color for the button */
+    text-decoration: none; /* Remove underline from the button text */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.baniere .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+/*.Adhersion {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: #0056b3;
+    justify-content: center;
+    display: flex;
+}
+
+.Adhersion h1,
+.Adhersion h3 {
+    text-align: center;
+    color: #333;
+}
+
+.Adhersion p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.Adhersion a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    position: end;
+}
+
+.Adhersion-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Adhersion-form input[type="text"],
+.Adhersion-form input[type="tel"],
+.Adhersion-form input[type="submit"],
+.Adhersion-form input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.radio-group label {
+    margin-bottom: 5px;
+}
+
+.Adhersion-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Adhersion-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+*/
+.Adhersion {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.Adhersion h1,
+.Adhersion h3 {
+    text-align: center;
+    color: #333;
+}
+
+.Adhersion p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.Adhersion a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Adhersion-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Adhersion-form input[type="text"],
+.Adhersion-form input[type="tel"],
+.Adhersion-form input[type="submit"],
+.Adhersion-form input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.radio-group label {
+    margin-bottom: 5px;
+}
+
+.Adhersion-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Adhersion-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.avantages-autre ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.avantages-autre li {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.avantages-autre p {
+    margin: 0 0 20px 0;
+    color: #555;
+}
+
+
